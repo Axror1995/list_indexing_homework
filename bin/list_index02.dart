@@ -6,4 +6,14 @@
     Returns:
         list: return answer
 */
-void main() {}
+
+import 'list_index01.dart';
+
+List finc(List s) {
+  s = [1, 2, 3, 4, 5];
+  return s[1];
+}
+
+void main() {
+  print(func());
+}
