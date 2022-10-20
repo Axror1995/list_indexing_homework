@@ -9,8 +9,8 @@
 
 import 'list_index01.dart';
 
-List finc(List s) {
-  s = [1, 2, 3, 4, 5];
+List finc() {
+  List s = [1, 2, 3, 4, 5];
   return s[1];
 }
 
