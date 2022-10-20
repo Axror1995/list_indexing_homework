@@ -9,7 +9,7 @@
 
 List <int> func(List s) {
   
-  return s[1];
+  return s[0];
 }
 
 void main() {
