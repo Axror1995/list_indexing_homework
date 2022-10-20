@@ -7,8 +7,7 @@
         list: return answer
 */
 
-
-List func(List s) {
+List <int> func(List s) {
   
   return s[1];
 }
