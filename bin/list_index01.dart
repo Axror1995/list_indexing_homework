@@ -7,10 +7,10 @@
         list: return answer
 */
 
-List func(List answer) {
-  return answer;
+List func(){
+    List v = []; 
+    return v;
 }
- 
 void main() {
-  print(func([]));
+  print(func());
 }
