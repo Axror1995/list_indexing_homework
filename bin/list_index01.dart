@@ -12,5 +12,5 @@ List func(List answer) {
 }
  
 void main() {
-  print(func([ 2]));
+  print(func([]));
 }
