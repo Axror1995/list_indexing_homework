@@ -7,13 +7,12 @@
         list: return answer
 */
 
-import 'list_index01.dart';
 
-List finc() {
-  List s = [1, 2, 3, 4, 5];
+List func(List s) {
+  
   return s[1];
 }
 
 void main() {
-  print(func());
+  print(func([1,2,3,4,5,]));
 }
