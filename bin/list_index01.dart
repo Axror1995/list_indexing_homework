@@ -10,7 +10,7 @@
 List func(List answer) {
   return answer;
 }
-
+ 
 void main() {
-  print(func([1, 2]));
+  print(func([ 2]));
 }
