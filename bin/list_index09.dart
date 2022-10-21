@@ -5,5 +5,15 @@
         list1 (list): parameter
     Returns:
         bool: return answer
-*/
-void main() {}
+*/bool func(List list1){ 
+List s = list1;
+if (s[0] == s[1]+s[2]+s[3]+s[4]){
+  return true;
+}
+return false;
+}
+
+
+void main() {
+  print(func([0,0,0,0,0]));
+}
