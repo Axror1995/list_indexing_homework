@@ -13,11 +13,11 @@ if (list1[s1]==1){
   list1[s1]=true;
     }
     else if(s2 < list1.length){
-      if (list1[s2]==1){
+      if (list1[s2]==0){
         list1[s2]=false;
       }
     }
-    s1 += 2;
+    s1 += 1;
     s2 += 1;
   }
   return list1;
