@@ -6,12 +6,10 @@
     Returns:
         list: return answer
 */
-
-List  func(List s) {
-  
-  return s[0];
+List func(List list1){
+  List a = [list1[0]];
+  return a;
 }
-
 void main() {
   print(func([1,2,3,4,5,]));
 }
