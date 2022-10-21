@@ -8,10 +8,10 @@
 */List func(List list1){  
  int a = 0;
   while (a < list1.length) {
-    if (list1[a] == 1) {
+    if (list1[a] == 2) {
       list1[a] = true;
     }
-    a += 2;
+    a += 1;
   }
   return list1;
 }
