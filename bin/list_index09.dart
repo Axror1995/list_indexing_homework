@@ -5,9 +5,10 @@
         list1 (list): parameter
     Returns:
         bool: return answer
-*/bool func(List list1){ 
-List s = list1;
-if (s[0] == s[1]+s[2]+s[3]+s[4]){
+*/
+bool func(List list1){ 
+List a = list1;
+if (a[0] == a[1]+a[2]+a[3]+a[4]){
   return true;
 }
 return false;
@@ -16,4 +17,4 @@ return false;
 
 void main() {
   print(func([0,0,0,0,0]));
-}
+} 
