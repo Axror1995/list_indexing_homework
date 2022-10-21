@@ -8,7 +8,7 @@
 */
 bool func(List list1){ 
 List a = list1;
-if (a[0] == a[1] && a[2] == a[3] && a[0] == a[4]){
+if (a[0] == a[1] && a[0] == a[2] && a[0] == a[3]){
   return true;
 }
 return false;
@@ -16,5 +16,5 @@ return false;
 
 
 void main() {
-  print(func([0,0,0,0,0]));
+  print(func(['s','s','s','s']));
 } 
